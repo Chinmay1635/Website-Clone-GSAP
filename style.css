@@ -1,0 +1,301 @@
+@font-face {
+    font-family: gilroy;
+    src: url(/Basics/Gilroy-Bold.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+
+section{
+    height: 100%;
+    width:100%;
+    position: relative;
+}
+
+nav{
+    width: 100%;
+    height: 13vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5vw;
+}
+
+nav h1{
+    font-size: 35px;
+}
+
+.star i{
+    display: inline-block;
+    transform: rotate(45deg);
+    font-size: 40px;
+}
+.part-2{
+    display: flex;
+    width: 50vw;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.part-2 h4{
+    font-size: 20px;
+}
+
+.btn{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 15px 35px;
+    background-color: transparent;
+}
+
+.container{
+    width: 100%;
+    height: 72vh;
+    display: flex;
+
+}
+
+.text-part{
+    width: 44%;
+    height: 100%;
+    padding: 4vh 5vw;
+
+}
+
+.text-part h1{
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.text-part h4{
+    font-size: 20px;
+    padding: 2vh 0;
+    font-family: monospace;
+    font-weight: 200;
+    line-height: 1.2;
+}
+
+.btn-2{
+    border-radius: 10px;
+    padding: 15px 35px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    margin: 3vh 0;
+}
+
+.img-part{
+    height: 100%;
+    width: 56%;
+    
+    
+}
+.img-part img{
+    height: 100%;
+    padding: 0vw 7vw;
+}
+
+.service{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo svg{
+    width: 120px;
+    
+}
+
+.container-2{
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    padding: 0 5vw;
+}
+
+.container-2 h1{
+    font-size: 35px;
+    background-color: rgb(155, 240, 65);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.container-2 h4{
+    font-size: 15px;
+    width: 42%;
+    padding: 0 45px;
+    color: gray;
+}
+
+.service-1,.service-2{
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    align-items: center;
+    padding: 2vw 5vw;
+    justify-content: space-between;
+}
+
+.srv-1-1,.srv-2-2{
+    width: 47.5%;
+    height: 100%;
+    border: 3px solid black;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5vw 2vw;
+}
+
+.part-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.part-1 h1{
+    font-size: 35px;
+    background-color: rgb(155, 240, 65);
+    text-align: center;
+}
+
+.part-1 div{
+    display: flex;
+    align-items: center ;
+}
+
+.part-1 div i{
+    font-size: 40px;
+    display: inline-block;
+    rotate: 45deg;
+    padding: 25px 0;
+}
+.part-1 div h4{
+    font-size: 20px;
+}
+.image{
+    width: 40%;
+}
+
+.image img{
+    height: 100%;
+}
+
+.srv-1-2,.srv-2-1{
+    width: 47.5%;
+    height: 100%;
+    border: 3px solid black;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5vw 2vw;
+}
+
+.srv-1-2 .part-1 h1{
+    background-color: #fff;
+    color: black;
+}
+
+.srv-2-1 .part-1 h1{
+    background-color: #fff;
+    color: black;
+}
+
+.elem{
+    box-shadow: 0px 7px 0px black;
+}
+
+.container-3{
+    width: 100%;
+    height: 45vh;
+    
+    padding: 0 5vw;
+}
+
+.inner{
+    width: 100%;
+    background-color: rgb(237, 235, 235);
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5vw;
+    border-radius: 25px;
+}
+
+.text-3{
+    display: flex;
+    height: 60%;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 35%; 
+ 
+}
+
+.img img{
+   mix-blend-mode: multiply;
+}
+
+.text-3 h1{
+    font-size: 35px;
+}
+
+.text-3 h4{
+    color: #878787;
+}
+
+.container-4{
+    padding: 5vw 5vw;
+}
+
+.container-5{
+    width: 100%;
+    padding: 0vw 5vw 5vw;
+    height: 50%;
+
+}
+
+.inner-2{
+    background-color: black;
+    color: white;
+    height: 100%;
+    padding: 0 3vw;
+}
+
+.text{
+    width: 20%;
+}
+
+.text div{
+    display: flex;
+    align-items: center;
+    padding: 2vw 0;
+    gap: 10px;
+}
+
+.text div h4{
+    font-size: 20px;
+}
+
+.text div i{
+    font-size: 35px;
+    color: white;
+    display: inline-block;
+    rotate: 45deg;
+}
+
