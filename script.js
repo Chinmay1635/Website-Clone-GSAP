@@ -128,3 +128,40 @@ function page2Animation(){
 
 page1Animation();
 page2Animation();
+
+let btn = document.getElementById("btn");
+btn.addEventListener("mouseover",function (){
+    gsap.to("#btn",{
+        backgroundColor:"black",
+        backgroundPosition:"right",
+        color:"white",
+        duration:0.3,
+    })
+})
+btn.addEventListener("mouseleave",function (){
+    gsap.to("#btn",{
+        backgroundColor:"white",
+        color:"black",
+        duration:0.3,
+    })
+})
+
+let btn2 = document.querySelectorAll(".btn-2");
+
+btn2.forEach(function(e){
+    e.addEventListener("mouseover",function (){
+        gsap.to(".btn-2",{
+            backgroundColor:"white",
+            color:"black",
+            duration:0.3,
+        })
+    })
+    e.addEventListener("mouseleave",function (){
+        gsap.to(".btn-2",{
+            backgroundColor:"black",
+            color:"white",
+            duration:0.3,
+        })
+    })
+})
+
