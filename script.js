@@ -1,4 +1,13 @@
 
+document.body.addEventListener("mousemove",function(dets){
+        gsap.to("#cursor",{
+            x:dets.x,
+            y:dets.y,
+            duration:0.5,
+        })
+})
+
+
 function page1Animation(){
     let tl = gsap.timeline();
     tl.from(".star",{
