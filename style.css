@@ -100,7 +100,7 @@ nav h1{
 
 .btn-2{
     border-radius: 10px;
-    padding: 15px 35px;
+    padding: 2vh 3vw;
     background-color: black;
     color: white;
     font-size: 20px;
@@ -127,7 +127,7 @@ nav h1{
 }
 
 .logo svg{
-    width: 120px;
+    width: 7.5vw;
     
 }
 
