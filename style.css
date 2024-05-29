@@ -179,10 +179,17 @@ nav h1{
     width: 40%;
 }
 
-.part-1 h1{
-    font-size: 35px;
+.white h1 span{
     background-color: rgb(155, 240, 65);
-    text-align: center;
+    font-size: 35px;
+    color: black;
+}
+
+.black h1 span{
+    background-color: rgb(255, 255, 255);
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+
 }
 
 .part-1 div{
@@ -217,16 +224,6 @@ nav h1{
     display: flex;
     justify-content: space-between;
     padding: 1.5vw 2vw;
-}
-
-.srv-1-2 .part-1 h1{
-    background-color: #fff;
-    color: black;
-}
-
-.srv-2-1 .part-1 h1{
-    background-color: #fff;
-    color: black;
 }
 
 .elem{
